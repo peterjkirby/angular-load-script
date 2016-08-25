@@ -1,0 +1,33 @@
+{
+  "name": "angular-loads-script",
+  "version": "0.1.0",
+  "description": "loadscript is an angular directive that makes it easy to load scripts when needed and get notified when they are loaded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/peterjkirby/angular-load-script.git"
+  },
+  "keywords": [
+    "load-script"
+  ],
+  "author": "Peter Kirby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterjkirby/angular-load-script/issues"
+  },
+  "homepage": "https://github.com/peterjkirby/angular-load-script#readme",
+  "dependencies": {
+    "angular": "^1.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
